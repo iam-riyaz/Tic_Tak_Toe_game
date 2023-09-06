@@ -18,22 +18,6 @@ export const Board=()=>{
 
     const [win,setWin]=useState("")
 
-    // useEffect(()=>{
-    //     if(p1=="O" && p2=="O" && p3=="O" || p4=="O" && p5=="O" && p6=="O" || p7=="O" && p8=="O" && p9=="O" ||
-        
-    //     p1=="O" && p4=="O" && p7=="O" || p2=="O" && p5=="O" && p8=="O" || p3=="O" && p6=="O" && p9=="O" ||
-        
-    //     p1=="O" && p5=="O" && p9=="O" || p3=="O" && p5=="O" && p7=="O" )
-    // {
-    //     setWin("Team O is Winner ✌")
-        
-    //     setTimeout(() => {
-    //         window.location.reload()
-            
-    //     }, 4000);
-    // }
-
-    // },[tic])
 
     useEffect(()=>{
         if(p1=="X" && p2=="X" && p3=="X" || p4=="X" && p5=="X" && p6=="X" || p7=="X" && p8=="X" && p9=="X" ||
